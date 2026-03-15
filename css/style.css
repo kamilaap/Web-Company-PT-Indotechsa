@@ -1,0 +1,46 @@
+/* WARNA UTAMA */
+:root {
+  --biru: #2A4D8F;
+  --kuning: #F5C842;
+  --putih: #ffffff;
+  --abu: #f5f6fa;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--biru);
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar .nav-link:hover {
+  color: white !important;
+}
+
+.btn-login {
+  background-color: var(--kuning);
+  color: #1a3364 !important;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 6px 20px !important;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--biru);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
